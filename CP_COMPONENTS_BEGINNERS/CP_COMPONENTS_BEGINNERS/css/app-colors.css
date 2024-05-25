@@ -1,0 +1,72 @@
+
+
+:root {
+    --c-app-theme-hue: 205;
+    --c-app-theme-sat: 94%;
+    --c-app-theme-light: 52%;
+    --c-app-theme: hsl(var(--c-app-theme-hue), var(--c-app-theme-sat), var(--c-app-theme-light));
+    --c-app-theme-dark: hsl(var(--c-app-theme-hue), var(--c-app-theme-sat), 46%);
+    --c-prim: hsl(226, 11%, 30%);
+
+    --c-globe-hue: 0;
+    --c-globe-sat: 0%;
+    --c-globe-light: 100%;
+
+    --c-white: hsl(var(--c-globe-hue), var(--c-globe-sat), var(--c-globe-light));
+    --c-black: hsl(var(--c-globe-hue), var(--c-globe-sat), 0%);
+
+    --c-gray-5: hsl(var(--c-globe-hue), var(--c-globe-sat), 5%);
+    --c-gray-5: hsl(var(--c-globe-hue), var(--c-globe-sat), 5%);
+    --c-gray-7: hsl(var(--c-globe-hue), var(--c-globe-sat), 7%);
+    --c-gray-10: hsl(var(--c-globe-hue), var(--c-globe-sat), 10%);
+    --c-gray-15: hsl(var(--c-globe-hue), var(--c-globe-sat), 15%);
+    --c-gray-20: hsl(var(--c-globe-hue), var(--c-globe-sat), 20%);
+    --c-gray-25: hsl(var(--c-globe-hue), var(--c-globe-sat), 25%);
+    --c-gray-30: hsl(var(--c-globe-hue), var(--c-globe-sat), 30%);
+    --c-gray-40: hsl(var(--c-globe-hue), var(--c-globe-sat), 40%);
+    --c-gray-50: hsl(var(--c-globe-hue), var(--c-globe-sat), 50%);
+    --c-gray-60: hsl(var(--c-globe-hue), var(--c-globe-sat), 60%);
+    --c-gray-70: hsl(var(--c-globe-hue), var(--c-globe-sat), 70%);
+    --c-gray-75: hsl(var(--c-globe-hue), var(--c-globe-sat), 75%);
+    --c-gray-80: hsl(var(--c-globe-hue), var(--c-globe-sat), 80%);
+    --c-gray-90: hsl(var(--c-globe-hue), var(--c-globe-sat), 90%);
+    --c-gray-93: hsl(var(--c-globe-hue), var(--c-globe-sat), 93%);
+    --c-gray-95: hsl(var(--c-globe-hue), var(--c-globe-sat), 95%);
+
+    --c-light-theme-bg: hsl(198, 20%, 94%, 1);
+
+    --c-status-green: hsl(120 ,100%, 27%);
+    --c-status-green-dark: hsl(120 ,100%, 21%);
+    --c-status-red: hsl(4, 90%, 51%);
+    --c-status-red-dark: hsl(4, 90%, 45%);
+    --c-status-blue: hsl(243, 90%, 51%);
+    --c-status-blue-dark: hsl(243, 90%, 36%);
+    --c-status-orange: hsl(40, 100%, 40%);
+    --c-status-orange-dark: hsl(40, 100%, 34%);
+
+    --bc-status-green: hsl(117, 78%, 91%);
+    --bc-status-red: hsl(0, 100%, 96%);
+    --bc-status-blue: hsl(234, 100%, 96%);
+    --bc-status-orange: hsl(41, 78%, 91%);
+    --bc-status-gray: hsl(0, 0%, 91%);
+
+    --c-link: hsl(227, 100%, 63%);
+}
+
+
+/* classes */
+/* gray colors */
+.c-gray-30 { color: var(--c-gray-30); fill: var(--c-gray-30); }
+.c-gray-50 { color: var(--c-gray-50); fill: var(--c-gray-50); }
+.c-gray-77 { color: var(--c-gray-77); fill: var(--c-gray-77); }
+
+.fill-white { fill: white; }
+/* \\\ classes */
+
+
+
+
+
+
+
+

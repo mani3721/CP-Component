@@ -1,0 +1,37 @@
+
+
+:root {
+    --br-radius-global: 6px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: unset;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+ul li { list-style: none; }
+p { line-height: 1.4; color: var(--c-gray-40); }
+a { text-decoration: none; cursor: pointer; }
+b { font-family: var(--font-bold); }
+
+.zcp-link { color: var(--c-link); }
+
+.zuse-icon { 
+    display: block;
+    width: 1em;
+    height: 1em;
+    /* font-size: 14px; */
+    flex-shrink: 0; 
+    fill: currentColor;
+}
+
+
+

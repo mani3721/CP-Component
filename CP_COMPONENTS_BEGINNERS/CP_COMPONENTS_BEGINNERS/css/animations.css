@@ -1,0 +1,26 @@
+
+/* global values */
+:root {
+    --trans: all ease-in-out;
+    --one-sec: 0.1s;
+    --two-sec: 0.2s;
+    --three-sec: 0.3s;
+    --five-sec: 0.5s;
+    
+    --u-fast-trans: var(--trans) var(--one-sec);
+    --fast-trans: var(--trans) var(--two-sec);
+    --default-trans: var(--trans) var(--three-sec);
+    --slow-trans: var(--trans) var(--five-sec);
+}
+/* \\ global values */
+
+
+/* classes */
+.u-fast-trans { transition: var(--u-fast-trans); }
+.fast-trans { transition: var(--fast-trans); }
+.default-trans { transition: var(--default-trans); }
+.fast-trans { transition: var(--fast-trans); }
+/* \\\ classes */
+
+
+

@@ -1,0 +1,55 @@
+
+
+/* puvi font declarations */
+@font-face {
+    font-family: "Zoho_Puvi_Regular";
+    font-display: swap;
+    src: url("../fonts/Zohopuvi/Regular/Zoho_Puvi_Regular.eot");
+    src: url("../fonts/Zohopuvi/Regular/Zoho_Puvi_Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Zohopuvi/Regular/Zoho_Puvi_Regular.woff2") format("woff2"),
+    url("../fonts/Zohopuvi/Regular/Zoho_Puvi_Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Zoho_Puvi_Medium";
+    font-display: swap;
+    src: url("../fonts/Zohopuvi/Medium/Zoho_Puvi_Medium.eot");
+    src: url("../fonts/Zohopuvi/Medium/Zoho_Puvi_Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Zohopuvi/Medium/Zoho_Puvi_Medium.woff2") format("woff2"),
+    url("../fonts/Zohopuvi/Medium/Zoho_Puvi_Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Zoho_Puvi_SemiBold";
+    font-display: swap;
+    src: url("../fonts/Zohopuvi/Semibold/Zoho_Puvi_Semibold.eot");
+    src: url("../fonts/Zohopuvi/Semibold/Zoho_Puvi_Semibold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Zohopuvi/Semibold/Zoho_Puvi_Semibold.woff2") format("woff2"),
+    url("../fonts/Zohopuvi/Semibold/Zoho_Puvi_Semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Zoho_Puvi_Bold";
+    font-display: swap;
+    src: url("../fonts/Zohopuvi/Bold/Zoho_Puvi_Bold.eot");
+    src: url("../fonts/Zohopuvi/Bold/Zoho_Puvi_Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Zohopuvi/Bold/Zoho_Puvi_Bold.woff2") format("woff2"),
+    url("../fonts/Zohopuvi/Bold/Zoho_Puvi_Bold.otf") format("opentype");
+}
+
+:root {
+    --font-regular: Zoho_Puvi_Regular, sans-serif;
+    --font-medium: Zoho_Puvi_Medium, sans-serif;
+    --font-sbold: Zoho_Puvi_SemiBold, sans-serif;
+    --font-bold: Zoho_Puvi_Bold, sans-serif;
+}
+
+/* Common font classes */
+.font-regular { font-family: var(--font-regular); } /* Regular */
+.font-medium { font-family: var(--font-medium); } /* Regular */
+.font-sbold { font-family: var(--font-sbold); } /* semibold */
+.font-bold { font-family: var(--font-bold); } /* bold */
+/* \\Common font classes */
+/* \\ puvi font declarations */
+
+

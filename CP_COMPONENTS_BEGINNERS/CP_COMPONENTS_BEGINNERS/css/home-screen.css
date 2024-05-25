@@ -1,0 +1,19 @@
+
+
+.section-header {
+    margin-bottom: 40px;
+}
+
+.component-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.component-header .btn-label { opacity: 0; }
+
+.component-block:hover .btn-label {
+    opacity: 1;
+}
+

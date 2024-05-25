@@ -1,0 +1,131 @@
+
+
+/* common */
+:root {
+    --w-app-left-panel: 220px;
+}
+/* common */
+
+
+
+
+.app-body {
+    font-family: var(--font-regular);
+    color: var(--c-gray-95);
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.app-container { 
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--c-white);
+}
+
+
+/* side panel */
+.app-left-panel { 
+    width: var(--w-app-left-panel);
+    height: 100%;
+    background-color: var(--c-black);
+    color: var(--c-white);
+    position: fixed;
+    left: 0px;
+}
+
+.app-left-panel .logo-container { 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: var(--font-sbold);
+    margin-bottom: 10px;
+}
+
+.app-left-panel .logo-icon { 
+    font-size: 24px; 
+}
+
+.app-left-panel .page-nav {
+    padding: 0 15px;
+}
+
+.app-left-panel .page-nav .arrow-down-icon {
+    font-size: 12px;
+}
+
+.app-left-panel .inner-nav {
+    height: 0px;
+    overflow: hidden;
+}
+
+.app-left-panel .nav-list:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.app-left-panel .nav-list.selected .inner-nav {
+    height: auto;
+}
+
+.app-left-panel .nav-list .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: var(--br-radius-global);
+    transition: var(--default-trans);
+    user-select: none;
+}
+
+.app-left-panel .nav-list .nav-link:hover {
+    background-color: var(--c-gray-20);
+}
+
+.app-left-panel .nav-list.selected .nav-link {
+    background-color: var(--c-gray-25);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.app-left-panel .inner-nav-lists { 
+    padding: 8px 5px;
+    background-color: var(--c-gray-15); 
+    border-radius: var(--br-radius-global);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.app-left-panel .inner-nav-list:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.app-left-panel .inner-nav-link { 
+    display: block;
+    padding: 10px 10px;
+    color: var(--c-gray-70);
+    border-radius: var(--br-radius-global);
+    transition: var(--fast-trans);
+    user-select: none;
+}
+
+.app-left-panel .inner-nav-link:hover, .app-left-panel .inner-nav-list.selected .inner-nav-link {
+    background-color: var(--c-gray-25);
+    color: var(--c-white);
+}
+/* \\\ side panel */
+
+
+
+/* app main */
+.app-main { 
+    width: calc(100% - var(--w-app-left-panel));
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: var(--c-gray-15);
+    margin-left: auto;
+}
+
+
